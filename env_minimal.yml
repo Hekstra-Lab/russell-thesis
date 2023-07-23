@@ -1,0 +1,21 @@
+name: micro-torch
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3
+  - pytorch
+  - numpy
+  - matplotlib
+  - jupyter
+  - scikit-image
+  - distributed
+  - dask
+  - scikit-learn
+  - scikit-learn-intelex
+  - networkx
+  - sparse
+  - torchvision
+  - z5py
+  - dask-image
+prefix: /opt/anaconda3/envs/micro-torch
